@@ -1,3 +1,6 @@
 This is the latest working release of my node web server.
 
-I will eventually add instructions on where to place the files, but nrn
+To setup:
+
+1. Download the zip folder and extract contents.
+2. Make sure node is installed nodejs.org
