@@ -1,8 +1,0 @@
-This is the latest working release of my node web server.
-
-To setup:
-
-1. Download the zip folder and extract contents.
-2. Make sure node is installed (nodejs.org)
-Use command prompt to run "node boot.js"
-it should display that a node server is running and where to find it in your browser.
