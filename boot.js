@@ -9,8 +9,8 @@ var staticServe = function(req, res) {
         var stream = fs.createReadStream("assets/index.html");
   res.writeHead(200, {
     'Content-Type': 'text/html'
-  });	
-      
+  });
+
 
         stream.pipe(res);
 }
@@ -19,5 +19,4 @@ var staticServe = function(req, res) {
 var httpServer = http.createServer(staticServe);
 httpServer.listen(PORT);
 
-console.log(`Server is running on ' +
-ip.address() + ' at PORT: ${PORT}`);
+console.log(`Server is running on ip.address() at PORT: ${PORT}`);
