@@ -1,7 +1,6 @@
 var fs = require('fs');
 var path = require('path')
 var http = require('http');
-var ip = require('ip');
 var PORT = 3000;
 
 var staticServe = function(req, res) {
@@ -19,4 +18,4 @@ var staticServe = function(req, res) {
 var httpServer = http.createServer(staticServe);
 httpServer.listen(PORT);
 
-console.log(`Server is running on ip.address() at PORT: ${PORT}`);
+console.log(`Server is running at PORT: ${PORT}`);
