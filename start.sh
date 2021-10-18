@@ -1,6 +1,4 @@
-@echo off
-npm install ip
-pause
+@echo off 
 cd content
 node boot.js
 pause
