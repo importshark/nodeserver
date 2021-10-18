@@ -19,5 +19,5 @@ var httpServer = http.createServer(staticServe);
 httpServer.listen(PORT);
 
 console.log(`Server is running at PORT: ${PORT}`);
-=======
+
 console.log(`Server is running on PORT: ${PORT}`);
