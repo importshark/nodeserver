@@ -1,3 +1,5 @@
+This project is old, and not very good. If you want to make a web server, use something like express.js, not the way I did it. This project was just for testing purposes.
+
 This is the latest working release of my node web server.
 
 To setup:
